@@ -1,6 +1,5 @@
-package com.merteroglu286.leitner_kutusu.ui.theme
+package com.merteroglu286.core.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -12,15 +11,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = com.merteroglu286.core.ui.theme.Purple80,
+    secondary = com.merteroglu286.core.ui.theme.PurpleGrey80,
+    tertiary = com.merteroglu286.core.ui.theme.Pink80
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = com.merteroglu286.core.ui.theme.Purple40,
+    secondary = com.merteroglu286.core.ui.theme.PurpleGrey40,
+    tertiary = com.merteroglu286.core.ui.theme.Pink40
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -52,7 +51,7 @@ fun LeitnerKutusuTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = com.merteroglu286.core.ui.theme.Typography,
         content = content
     )
 }

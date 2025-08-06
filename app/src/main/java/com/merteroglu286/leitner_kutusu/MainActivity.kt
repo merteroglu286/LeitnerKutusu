@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.merteroglu286.leitner_kutusu.ui.theme.LeitnerKutusuTheme
+import com.merteroglu286.core.ui.theme.LeitnerKutusuTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

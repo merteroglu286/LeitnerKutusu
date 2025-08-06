@@ -56,6 +56,8 @@ android {
 
 dependencies {
 
+    implementation(project(Modules.CORE_UI))
+
     implementation(Dependencies.ANDROIDX_CORE_KTX)
     implementation(Dependencies.ANDROIDX_LIFECYCLE_RUNTIME_KTX)
     implementation(Dependencies.ANDROIDX_ACTIVITY_COMPOSE)

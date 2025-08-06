@@ -1,4 +1,4 @@
-package com.merteroglu286.leitner_kutusu.ui.theme
+package com.merteroglu286.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
