@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "LeitnerKutusu"
 include(":app")
 include(":core:common")
+include(":core:domain")
